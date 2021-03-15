@@ -1,0 +1,12 @@
+.fas fa-cog {
+  position: relative;
+}
+.find-red-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--red-dot);
+  position: absolute;
+  top: 35px;
+  right: -2px;
+}

@@ -1,0 +1,32 @@
+.chats__right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.msg-line__right__red-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: tomato;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.msg-line__text {
+  display: flex;
+  flex-direction: column;
+}
+.msg-line__name {
+  margin-bottom: 6px;
+}
+.msg-line__subtitle,
+.msg-line__right-time {
+  font-weight: 100;
+  font-size: 12px;
+  opacity: 0.5;
+}

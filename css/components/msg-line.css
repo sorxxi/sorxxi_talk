@@ -1,0 +1,23 @@
+.msg-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.msg-line__column {
+  display: flex;
+  align-items: center;
+}
+.msg-line__column img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.msg-line__column span {
+  font-weight: 600;
+}
+.msg-line {
+  display: flex;
+  justify-content: space-between;
+}
