@@ -10,3 +10,108 @@
   top: 35px;
   right: -2px;
 }
+
+.find-head {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--sorxxi-grey);
+  padding-bottom: 15px;
+}
+.find-head__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  text-align: center;
+}
+.find-head__icons i {
+  font-size: 30px;
+  margin-top: 15px;
+}
+.recommended-friends__title {
+  font-size: 12px;
+  margin-top: 10px;
+  display: flex;
+  opacity: 0.5;
+}
+.recommended-friends__text {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  opacity: 0.7;
+}
+.open-chat {
+  border-top: 1px solid var(--sorxxi-grey);
+  margin-top: 10px;
+}
+.open-chat__title {
+  opacity: 0.6;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.open-chat__title i {
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+.open-chat__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 0;
+  border-bottom: 1px solid var(--sorxxi-grey);
+}
+.open-chat__main-members img {
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+}
+.open-chat__main-right img {
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+}
+.open-chat__main-left {
+  display: flex;
+  flex-direction: column;
+}
+.open-chat__main-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+.open-chat__main-hashtag {
+  margin: 10px 0;
+  text-transform: uppercase;
+  color: var(--sorxxi-grey);
+}
+.open-chat__main-members span:nth-child(3) {
+  border-left: 1.5px solid var(--sorxxi-grey);
+  height: 10px;
+  margin-right: 5px;
+}
+.open-chat__main-members span:nth-child(2) {
+  color: var(--sorxxi-grey);
+}
+.open-chat__main-members span:last-child {
+  color: hotpink;
+}
+.heart-count {
+  width: 48px;
+  height: 18px;
+  background-color: black;
+  opacity: 0.6;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  right: 3px;
+  bottom: 5px;
+}
+.open-chat__main-right {
+  display: flex;
+  position: relative;
+}
