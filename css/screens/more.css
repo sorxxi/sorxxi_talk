@@ -1,0 +1,41 @@
+.profile__name {
+  font-size: 15px;
+}
+.profile__number {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.profile__number__icon {
+  color: tomato;
+  opacity: 1;
+}
+.profile__number__name {
+  opacity: 0.6;
+}
+.more-icon {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.more-blank {
+  opacity: 0;
+}
+.suggestions {
+  border-top: 1px solid var(--sorxxi-grey);
+  margin-top: 15px;
+}
+.suggestions__title {
+  padding: 20px 0;
+}
+.more-icon__icons img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.more-icon__icons span {
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: 500;
+}
