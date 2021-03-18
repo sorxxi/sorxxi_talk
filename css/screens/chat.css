@@ -1,0 +1,138 @@
+.sorxxi-chat__title {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+}
+.sorxxi-chat__title__column {
+  width: 33%;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.sorxxi-chat__title__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+.sorxxi-chat__title__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.sorxxi-chat__title__column i {
+  margin-left: 15px;
+}
+
+.chat-screen {
+  background-color: rgb(255, 194, 188);
+}
+
+.chat-time {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.chat-time span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  opacity: 0.4;
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+}
+.your-chat img {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.your-chat {
+  display: flex;
+  margin: 30px 0;
+}
+.your-chat__name {
+  display: flex;
+  color: grey;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.your-chat___msg {
+  display: flex;
+  width: 35px;
+  height: 28px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+}
+.your-chat__sub__bottom {
+  display: flex;
+  align-items: flex-end;
+}
+.your-chat__time,
+.my-chat__time {
+  font-size: 5px;
+  color: grey;
+}
+.my-chat {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.my-chat__msg {
+  margin-left: 5px;
+  background-color: salmon;
+  width: 105px;
+  height: 28px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.chat__keyboard {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  position: fixed;
+  align-items: center;
+  bottom: 0;
+}
+.chat__keyboard i {
+  margin: 0 20px;
+}
+.chat-keyboard__write input {
+  outline: none;
+  width: 400px;
+  height: 40px;
+  border-radius: 30px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  padding: 0 0 0 25px;
+  display: flex;
+}
+.chat__keyboard__submit button {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: salmon;
+  color: white;
+}
+.chat-keyboard-plus-icon {
+  opacity: 0.6;
+}

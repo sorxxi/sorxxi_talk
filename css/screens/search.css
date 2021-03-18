@@ -1,4 +1,4 @@
-.fas fa-cog {
+.sorxxi-title-bar__column:nth-child(2) {
   position: relative;
 }
 .find-red-dot {
@@ -7,7 +7,7 @@
   border-radius: 50%;
   background-color: var(--red-dot);
   position: absolute;
-  top: 35px;
+  top: -5px;
   right: -2px;
 }
 
