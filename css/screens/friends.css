@@ -22,3 +22,45 @@
 .msg-line__channel .msg-line__column i {
   margin-left: 5px;
 }
+
+@keyframes turning-icon {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: rotateZ(180deg);
+  }
+  75% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+
+@keyframes splash-screen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-creen {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  font-size: 60px;
+  animation: splash-screen 3s ease-in-out forwards;
+}
+.splash-creen i {
+  animation: turning-icon 0.5s ease-in-out infinite;
+}

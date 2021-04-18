@@ -1,9 +1,28 @@
+.chat-status-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3px 5px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  background-color: rgb(255, 194, 188);
+}
+.chat-status-bar i {
+  margin-left: 5px;
+}
+
+.sorxxi-chat__title {
+  background-color: rgb(255, 194, 188);
+}
+
 .sorxxi-chat__title {
   position: fixed;
   width: 100%;
-  box-sizing: border-box;
+  padding: 10px 0;
   left: 0;
   top: 0;
+  box-sizing: border-box;
 }
 .sorxxi-chat__title__column {
   width: 33%;
@@ -26,19 +45,17 @@
 .chat-screen {
   background-color: rgb(255, 194, 188);
 }
-
 .chat-time {
-  margin-top: 100px;
   display: flex;
   justify-content: center;
 }
-.chat-time span {
+.chat-time div {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: grey;
   color: white;
-  opacity: 0.4;
   width: 200px;
   height: 25px;
   border-radius: 10px;
